@@ -1,0 +1,246 @@
+<html>
+  <body data-type="book">
+    <h1>GCHQ: BOILING FROGS?</h1>
+    <section data-type="foreward" id="foreward">
+      <h1>Foreward</h1>
+      <p>GCHQ works extensively with technology and software to support our mission and to support the operation of our business, communications, infrastructure and management needs. We deal with high complexity issues in terms of technology and engineering and so like any progressive organisation we keep an eye on the future, emerging trends and schools of thought so that we can adapt and evolve to be the best we can be.</p>
+      <p>The technology industry is always changing, and it seems that the pace of that change is increasing. We feel it as much as other government departments and commercial organisations and so we offer this internal research paper publicly, not to present policy or guidelines, but to stimulate debate.</>
+      <p>This paper examines a series of change characteristics and the directions they appear to be travelling in – the authors recommend that organisations consider how they wish to move along these scales and how those changes may need to be considered together to achieve systemic improvement rather than localised changes. I think the debate is healthy and useful as despite the “Boiling Frogs” changes not being right for every organisation, they do offer an opportunity to discuss where an organisation might need to be.</p>
+      <p>Change is never simple, and this paper doesn’t offer a quick  x, speci cally it doesn’t cover how to change a complex organisation or what an end state would look like. Part of the point of embracing this kind of change is that there isn’t an end state because change is constant.</p>
+      <!-- FIXME use different elements for this bit -->
+      <p>Director General Technology</p>
+      <p>GCHQ</p>
+    </section>
+    <section data-type="abstract" id="executive-summary">
+      <h1>Executive summary</h1>
+      <p>GCHQ has a reputation for being the best technical delivery organisation
+        in UK Government. This reputation has been built on years of successful delivery of complex systems in challenging environments. Looking at business, management and technical trends globally we see an increasingly disruptive environment for technical businesses and organisations, including GCHQ and its partners. In fact, the pace of change is becoming so rapid that traditional approaches to managing large organisations (in both the public and private sectors) are struggling to keep up. This challenge is not just about technical change, it is also about the way we need to think and behave in order to get the most out of new technology.<p>
+      <p>There are a number of global drivers affecting organisations in signicantly disruptive ways: Consumer IT, Big Data, Cloud, Social Business, Mobile and more. As a result, disruptive innovation in products, ways of working and strategy is increasingly the only game in town for technology-focussed organisations. In order to maintain competitive advantage, old ways of working for our more predictable solutions are no longer appropriate when we need to create new value by working on speculative, creative solutions. Overall, this pressure is causing a desire in the wider ecosystem for business and technical agility in the pursuit of reduced time to market, elastic  exibility, reduced waste and promotion of creativity.</p>
+      <p>This paper identifes and examines critical business characteristics that promote business and technical agility describing how organisations need “less of” some characteristics and “more of” others. Rather than changing one of these characteristics in isolation, we believe that organisations need to improve holistically, not in terms of a binary step change, but in terms of force-multiplying cohesive change.</p>
+      <p>For each characteristic, we propose a direction of change covering:</p>
+      <ul>
+        <li>Operating Model (including structure and interaction styles)</li>
+        <li>Organisational cultures</li>
+        <li>Use of accommodation</li>
+        <li>Approach to measurement</li>
+        <li>Skills management</li>
+        <li>Use of commercial suppliers</li>
+        <li>Leveraging Big Data</li>
+        <li>Approach to architecture</li>
+        <li>Use of processes and techniques</li>
+        <li>Approach to Security</li>
+        <li>Approach to HR</li>
+      </ul>
+      <p>Finally, this paper includes some of the background reasoning collated from internal blogs related to organisational structuring, types of jobs and the effects of Conway’s Law on business change.</p>
+    </section>
+    <nav data-type="toc">
+      <h1>Contents</h1>
+      <ol>
+        <li><a href="#foreward">Foreward</a></li>
+        <li><a href="#executive-summary">Executive summary</a></li>
+        <li><a href="#boiling-frogs">Boiling Frogs</a>
+          <ol>
+            <li><a href="">So why do we need fundamental change?</a></li>
+            <li><a href="">Don't come to the Dark Side</a></li>
+            <li><a href="">Why is complex change so difficult?</a></li>
+            <li><a href="">Commoditisation Scale</a></li>
+            <li><a href="">Less and More</a></li>
+          </ol>
+        </li>
+        <li><a href="#changes">Changes</a>
+          <ol>
+            <li><a href="">Operating Model: Predefined Structure &gt; Mixed Dynamic</a>
+              <li><a href="">Common Operating Model Problems</a></li>
+              <li><a href="">Hybrid Dynamic Model</a></li>
+              <li><a href="">Interaction: Transactional &gt; Collaborative</a></li>
+            </li>
+            <li><a href="">Culture: Inertia &gt; Collaborative</a></li>
+            <li><a href="">Accommodation: Bespoke/Fixed &gt; Commodity/Configurable</a></li>
+            <li><a href="">Corporate Focus: Analytic &gt; Outcome based</a></li>
+            <li><a href="">Suppliers: Large + Time-Hire &gt; Large, Medium, Small (inc Time-Hire)</a></li>
+            <li><a href="">Big Data: Used &gt; Driven By</a></li>
+            <li><a href="">Architecture (Resilience + Capacity + Commodity)</a></li>
+            <li><a href="">Technique: Single Type &gt; Mixed</a></li>
+            <li><a href="">Security: Preventative &gt; Permissive/Enabling</a></li>
+            <li><a href="">Human Resources: Centralised/Generalist > Decentralised/Specialist</a></li>
+          </ol>
+        </li>
+        <li><a href="#conclusion">Conclusion</a></li>
+        <li><a href="#appendix">Appendix</a>
+          <ol>
+            <li><a href="">So why do we need fundamental change?</a></li>
+            <li><a href="">Don't come to the Dark Side</a></li>
+            <li><a href="">Why is complex change so difficult?</a></li>
+            <li><a href="">Commoditisation Scale</a></li>
+            <li><a href="">Less and More</a></li>
+          </ol>
+        </li>
+        <li><a href="#contact-us">Contact us</a></li>
+        <li><a href="#references">References</a></li>
+      </ol>
+    </nav>
+    <section data-type="chapter" id="boiling-frogs">
+      <h1>Boiling Frogs</h1>
+      <p>The story goes that if a frog is placed in a saucepan of cold water, which is slowly heated, the frog adapts its body temperature to the changing heat of the water and gradually goes to sleep. In fact, it goes to sleep at 40°C, unaware that at 100°C it boils alive. However, if the frog is placed in already boiling water it immediately jumps out to safety.</p>
+      <p>This is a useful metaphor to illustrate that although humans think they are very clever at adapting to the changing world, they don’t necessarily recognise the need to jump out of that world and take charge of it, not just adapt to it. There is a risk of being blissfully unaware that the world is changing so dramatically that there is danger of boiling alive whilst asleep.</p>
+      <p>Organisations are systems, not just the sum of their business units and departments but also the product of interactions amongst all their elements – including both internal interactions as well as those with customers and suppliers. The system is changing – but how aware are the system’s inhabitants of the direction and impact of those changes?</p>
+      <p>The pace of disruptive change is increasing, from the rise of cloud technology, social business, the Internet of Things and others. We need to jump out of our world and consider the big picture. This paper proposes a holistic approach to driving change in our organisations, strategies, practices and business activities. Technology businesses need to understand and include a wide range of elements and their interactions to ensure they are in the best possible shape to face a disruptive present and future – before it’s too late.</p>
+      <aside data-type="sidebar">
+        <p>External changes and disruptions</p>
+        <ul>
+          <li>Consumer IT</li>
+          <li>Big Data</li>
+          <li>Social Business</li>
+          <li>Internet of Things</li>
+          <li>Cloud</li>
+          <li>3D Printing</li>
+          <li>Competitor Innovation</li>
+          <li>Other Political and Environmental factors</li>
+        </ul>
+      </aside>
+      <figure>
+        <figcaption>Please note, no frogs have been harmed in the writing of this paper</figcaption>
+        <img src="boiling-" alt="Photo of an adorable cat"/>
+      </figure>
+      <section data-type="sect1">
+        <h1>So why do we need fundamental change?</h1>
+        <p>The pace of disruption and radical change used to be measured in decades. If a business knew what it was going to do for the next 10 to 15 years, then focussing on efficiency and predictability made sense. However, the pace of disruption is accelerating, and as it does so focussing on ef ciency and predictability actually becomes detrimental to an organisation’s health. Business agility and delivering new business value become the only game in town.</p>
+        <p>In many organisations the last ten years, although not without great challenges, have been a period of relative stability as far as technology and business needs are concerned. Success has been judged against this background of stability with an emphasis on control of budget and plan variance.</p>
+        <p>Organisations have evolved and increased in scale during this period of stability into highly structured machines with well-de ned processes and procedures designed and developed to maintain and enhance their current capabilities.</p>
+        <blockquote>
+          <p>They shouldn’t build those Death Stars anymore. They keep getting blown up.</p>
+          <p data-type="attribution">Lt. Col. Dan Ward’s Daughter – “Don’t come to the Dark Side, 2014”</p>
+        </blockquote>
+      </section>
+      <section data-type=-"sect1">
+        <h1>Don't come to the Dark Side</h1>
+        <p>During stable times organisations are tempted to build big systems – multi-year projects of brain melting complexity, like the Death Star. Despite these large programmes and projects rarely working they’ve become the standard approach in many organisations. The technological environment is now moving too quickly for us to take years building big solutions. If we try we’ll get blown up.</p>
+        <p>The “Big planning” approach to building a Death Star just isn’t relevant to speculative exploratory work. In fact, it’s wasteful. Instead, technology organisations need a number of  exible, small solutions that can be easily combined in different ways. To survive we need to incubate ideas quickly, failing fast and learning from the experience. A project failing isn’t a bad thing if it fails early, in fact that’s something to celebrate!</p>
+        <p>We need different ways of working to build an astromech droid rather than a Death Star and it’ll be a lot more useful. However, it isn’t that easy of course. Years of success in taking the same business approach deters people from trying new methods. Change itself becomes something upsetting, to be resisted or worse, denied (like the frogs slowly coming to the boil).</p>
+      </section>
+      <section data-type="sect1">
+        <h1>Why is complex change so difficult?</h1>
+        <figure>
+          <figcaption></figcaption>
+          <img src="" alt="" />
+        </figure>
+        <aside data-type="sidebar">
+          <ol>
+            <li>Inertia built up through consecutive years of past success</li>
+            <li>Inward looking behaviours on spend, budget, staff metrics</li>
+            <li>Creation of a high number of roles, job descriptions, process and structures that are organised around the way we’ve provided value not the actual value that we provide</li>
+            <li>Organisation of people around existing products, capabilities and process, not by the skill &amp; expertise they provide.</li>
+          </ol>
+        </aside>
+        <p>These four reinforcing factors constrain people to current methods and approaches, focusing on inward pressures and thinking about how to improve the things we currently do, rather than the value we need to provide. This is why so many people miss the need to change radically. While it can seem counter- intuitive, when our primary focus is to manage the way we provide value our workload goes up simply because there’s more “management activity”. When we learn to manage value, our workload and costs reduce because we’re managing the output of our processes, not the processes themselves.</p>
+        <p>An effective response to accelerating technical disruption requires many changes across multiple aspects affecting people, process and technical concerns. Traditional sequential change to the way we conduct our businesses will be, in the main, inadequate and too slow to implement. In times of rapid technological and business change, organisations need faster decision making, fostering greater innovation for survival and growth.</p>
+        <p>As the pace of technology disruption increases organisations need to innovate to survive and so the types of work that many technology organisations do is changing.</p>
+        <p>There is an increasing proportion of complex work, new types of problem, which are rare, unpredictable, speculative, unde ned, and constantly changing. Consequently, there is a reduction in the proportion of simple complicated work that is predictable, stable and large.</p>
+        <table>
+          <caption>Complex vs. Complicated inspired by “Wicked Problems” – Keith Grint</caption>
+          <tr>
+            <th>Complicated</th>
+            <th>Complex</th>
+          </tr>
+          <tr>
+            <td>Problems can be made simpler by decomposition into smaller units</td>
+            <td>Problems can’t be reduced for simplication</td>
+          </tr>
+          <tr>
+            <td>Successful execution increases chances of subsequent success</td>
+            <td>Successful execution does not assure subsequent successes</td>
+          </tr>
+          <tr>
+            <td>High expertise in a wide variety of  elds is necessary for success</td>
+            <td>Expertise contributes to success but is no guarantee</td>
+          </tr>
+          <tr>
+            <td>Problems are similar in a number of critical fields; standard methods work well</td>
+            <td>Each execution is unique and must be understood as an individual problem, unique approaches are needed</td>
+          </tr>
+          <tr>
+            <td>Problems are linear in nature and can be tackled sequentially</td>
+            <td>Problems are interconnected and need simultaneous resolution</td>
+          </tr>
+          <tr>
+            <td>Relationships between contributing parts is simple and well understood</td>
+            <td>Relationships are interconnected, cause and effect is difficult to comprehend</td>
+          </tr>
+          <tr>
+            <td>High degree of certainty of outcome</td>
+            <td>Uncertainty of outcome persistent</td>
+          </tr>
+        </table>
+      </section>
+      <section data-type="sect1">
+        <h1>Commoditisation scale</h1>
+        <p>A useful mechanism for understanding different types of work, and the different approaches that may be applicable to delivering them within a portfolio is the “Commoditization Scale”. The Commoditization Scale describes a range of types of work from innovation (unde ned, rare, speculative and high risk) to more commodity/utility (well de ned, ubiquitous, and less differentiated with lower risk).</p>
+        <p>These different types of work require different ways of working, contractual models, technologies, supply chains, cultures, processes etc. Well-understood work is more predictable and manageable by its nature, whereas the opposite is true for less well-understood work.</p>
+        <!-- TODO(jabley) 
+         Utility
+• Ubiquitous, general solution
+• Cheaply available
+Commodity
+• Readily available • No market
+differentiation between suppliers
+Specialist
+• Niche products/COTS • Specialised by
+suppliers with differentiaing features
+Innovation
+• Market leading
+• New or improved idea • Aligned to strategy
+ Commoditisation Scale inspired by Simon Wardley’s Evolution Curve
+        -->
+        <p>If an organisation primarily works in the Specialist space then it is building unique products to solve speci c business problems, in this situation, it does not make sense to build utility or commodity components, systems or products, they can simply be bought/acquired from suppliers or open source communities. For example, an organisation building public service websites would not build a software source code management system for itself, this is a commodity capability that is best served by well-established tools such as the open source Git.</p>
+        <p>Alternatively, if an organisation is primarily focussed on utilities or commodities (e.g. power supply) then working on innovation and specialist products is most likely to be either as part of an ef ciency improvement or a long term strategic play as it’s not part of the (current) core business.</p>
+        <p>However, there are many complex organisations, which work on solutions that are distributed across the commoditisation scale; these organisations have complex value streams internally and with supplier ecosystems. For these organisations, no single method is applicable across work of such variation, indeed the methods and cultures at the extremes of the commoditisation scale will be very different potentially causing con ict. An approach to solving this issue is described later in this document in section II.A.2 the Hybrid Dynamic Model.</p>
+      </section>
+      <section data-type="sect1">
+        <h1>Less and more</h1>
+        <p>As an organisation is affected by disruptions, characteristics of that organisation which may have been perfectly functional in the past may no longer be best suited to times of instability. As a result, many organisations may need to change fundamentally to react to instability.</p>
+        <p>The following table indicates the various characteristics and the types of change that organisations need to inspire, incentivise and implement. The “less of” characteristics are not inherently bad, they have served well in the past and they do have a place in the future, however moving towards the “more of” characteristics will put organisations in a better place to deal with periods of disruption.</p>
+        <!-- TODO(jabley)
+         Less of
+Prede ned Structure for everything Functional Silo / Service Centre Transactional
+Inertia
+Bespoke / Fixed
+Analytic
+Single Discipline / Silo’d
+Large + Time-Hire
+Used
+Bespoke, Scale-up, Design for Resilience Single Type
+Preventative
+Centralised / Generalist
+Type Operating Model Structure Interaction Culture Accommodation Corporate Focus Skills Suppliers
+Big Data Architecture Technique Security Human Resources
+More of
+Mixed Dynamic
+Service / Cell / Pod Collaborative
+Progressive
+Commodity / Con gurable Outcome Based
+Wole Lifecycle / Full Stack
+Large, Medium and Small (inc Time-Hire) Driven By
+Commodity, Scale-out, Design for Failure Mixed
+Permissive / Enabling Decentralised / Specialist
+ 
+      -->
+        <p>Many of these changes in characteristics are already diffusing in organisations around the world as they strive to be more effective and responsive to change. Other organisations that refused to move have declined in value, or gone out of business altogether.</p>
+        <p>Adopting these changes will not be enough to make an organisation successful without a well-executed business and technical strategy. The reverse is also true; a great technical and business strategy is all too often undermined by an ineffective organisation.</p>
+        <figure>
+          <!-- TODO(jabley)  -->
+          <img src=""  alt="" />
+        </figure>
+        <p>To survive rapid disruption technical businesses and organisations need to do less of some of the “old” ways of working and move towards doing more of the “new” ways of working to become more reactive, more innovative – better, healthier and happier organisations.</p>
+        <p>This is not a binary change; instead it’s a collective shift in emphasis of these characteristics. Some organisations will have further to change than others as each organisation has a different starting (and  nishing) position for each characteristic. The key is keeping these changes moving together in the same direction and ensuring that changes force-multiply, moving organisations into the best possible shape for the future.</p>
+        <p>As with all change, there will be pockets of enthusiasm but also there are pockets of resistance and indifference. Of course, there are also a fair number of boiling frogs.</p>
+        <p>The rest of this paper examines each characteristic and the required direction of change in more detail.</p>
+      </section>
+    </section>
+    <section data-type="chapter" id="changes">
+    </section>
+    <section data-type="chapter" id="conclusion">
+    </section>
+    <section data-type="appendix">
+    </section>
+  </body>
+</html>
